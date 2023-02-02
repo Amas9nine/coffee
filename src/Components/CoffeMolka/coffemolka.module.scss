@@ -1,0 +1,26 @@
+.bg {
+  background-image: url(./img/coffelogia.png);
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF9800;
+    font-size: 32px;
+    text-transform: uppercase;
+    height: 15vh;
+  }
+
+  .flex_direction {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      height: 10vh;
+    }
+  }
+
+}

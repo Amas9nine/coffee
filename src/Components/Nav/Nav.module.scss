@@ -1,0 +1,66 @@
+.section {
+  display: flex;
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  z-index: 0;
+
+
+  .box {
+
+    display: flex;
+    border: 1px solid blue;
+    justify-content: right;
+    z-index: 0;
+    height: 80vh;
+
+
+    .left_img {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      z-index: 0;
+
+
+
+      div {
+        hr {
+          border: #EF9C21 1px solid;
+        }
+
+        p {
+          height: 60px;
+          font-size: 35px;
+        }
+
+        .second_P {
+          color: #EF9C21;
+        }
+      }
+    }
+
+    .right_img {
+      width: 70%;
+      background-image: url(./img/rightUp.png);
+      background-repeat: no-repeat;
+      z-index: 0;
+
+
+      .coffee {
+        z-index: 0;
+        height: 110%;
+        width: 115%;
+        background-image: url(./img/rightUp.png);
+        z-index: 0;
+      }
+
+      .cup {
+        height: 110%;
+        width: 100%;
+        z-index: 2;
+        background-image: url(./img/cup.png);
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+    }
+  }
+}

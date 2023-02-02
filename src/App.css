@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid blueviolet;
+  margin: 0 auto;
+  z-index: 0;
+}

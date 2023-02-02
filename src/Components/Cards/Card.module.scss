@@ -1,0 +1,133 @@
+.card {
+  border: 1px solid #EF9C21;
+  width: 200px;
+  height: 502px;
+  width: 352px;
+  padding: 10px;
+  grid-gap: 1em 20px;
+
+
+  .pName {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .beetwen {
+    display: flex;
+    justify-content: space-between;
+
+
+    .left {
+
+      display: flex;
+      flex-direction: column;
+
+      .calculate {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+
+        div {
+          font-size:
+            22px;
+          color: #EF9C21;
+        }
+      }
+
+      div {
+        p {
+          font-weight: bolder;
+        }
+      }
+
+      .gram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: #88929E 1px solid;
+
+        div {
+          text-transform: uppercase;
+          font-size: 17px;
+          color: #EF9C21;
+
+          img {
+            width: 6.25px;
+          }
+        }
+      }
+
+      .basket {
+        color: white;
+        background: #EF9C21;
+        border: none;
+        padding: 1px 10px 1px 10px;
+        font-size: 22px;
+      }
+
+    }
+
+    .right {
+      width: 50%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+
+      div {
+        .Brazil {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        .orange {
+          color: #EF9C21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 22px;
+          text-align: left;
+        }
+
+        .seven {
+          font-size: 32px;
+          color: #5B6773;
+          width:
+            700;
+        }
+      }
+
+
+      .pDiv {
+        margin-top: -20px;
+
+        p {
+          color: #5B6773;
+          font-size: large;
+        }
+
+        .zerna {
+          color: #EF9C21;
+          font-size: 17px;
+
+          img {
+            width: 6.25px;
+
+          }
+        }
+      }
+
+      button {
+        border: white;
+        background: white;
+
+        img {
+          width: 49px;
+        }
+      }
+    }
+  }
+}
