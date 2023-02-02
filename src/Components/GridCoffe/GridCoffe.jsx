@@ -4,6 +4,10 @@ import one from "./img/1.png"
 import two from "./img/2.png"
 import three from "./img/3.png"
 import four from "./img/4.png"
+// import five from "./img/5png"
+// import six from "./img/6.png"
+
+
 
 function Grid2() {
   return (
@@ -55,8 +59,8 @@ function Grid2() {
             </p>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   )
 }
