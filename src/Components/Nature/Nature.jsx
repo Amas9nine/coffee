@@ -9,9 +9,6 @@ function Nature() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
             <div className={scss.one}>Подпишись на наши</div>
             <br />
             <div className={scss.two}>новые поступления</div>
