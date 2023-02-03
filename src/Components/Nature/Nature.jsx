@@ -22,7 +22,8 @@ function Nature() {
           </div>
         </div>
       </div>
-    </>)
+    </>
+  )
 }
 
 export default Nature

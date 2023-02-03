@@ -2,11 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 15px;
-  grid-column-gap: 15px;
 }
 
 .w {
-  width: 100%;
   margin: 0 auto;
 
   .lineBlock {
@@ -14,8 +12,8 @@
     justify-content: center;
 
     .line {
-      border: 1px solid #1E1E1E;
       padding: 10px;
+      color: black;
     }
   }
 

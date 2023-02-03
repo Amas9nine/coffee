@@ -1,9 +1,9 @@
 .card {
   border: 1px solid #EF9C21;
   width: 200px;
-  height: 502px;
+  // height: 502px;
   width: 352px;
-  padding: 10px;
+  // padding: 10px;
   grid-gap: 1em 20px;
 
 
@@ -18,14 +18,18 @@
 
 
     .left {
-
+      width: 50%;
       display: flex;
       flex-direction: column;
 
+      .iced {
+        width: 30%;
+      }
+
       .calculate {
         display: flex;
-        justify-content: space-around;
-        width: 100%;
+        justify-content: center;
+        width: 15%;
 
 
         div {
@@ -43,7 +47,7 @@
 
       .gram {
         display: flex;
-        justify-content: center;
+        justify-content: /center;
         align-items: center;
         background-color: white;
         border: #88929E 1px solid;
@@ -63,7 +67,7 @@
         color: white;
         background: #EF9C21;
         border: none;
-        padding: 1px 10px 1px 10px;
+        // padding: 1px 10px 1px 10px;
         font-size: 22px;
       }
 
@@ -102,7 +106,7 @@
 
 
       .pDiv {
-        margin-top: -20px;
+        // margin-top: -20px;
 
         p {
           color: #5B6773;
@@ -125,7 +129,8 @@
         background: white;
 
         img {
-          width: 49px;
+          text-align: left;
+          // width: 29px;
         }
       }
     }

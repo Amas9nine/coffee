@@ -1,32 +1,31 @@
 import './App.css'
+import US from './Components/aboutUs/US'
+import Ask from './Components/Ask/Ask'
+import Bunner from './Components/Bunner/Bunner'
 import Cards from './Components/Cards/Cards'
+import Cofeologia from './Components/Cofeologia/Cofeologia'
+import Cofeologia2 from './Components/Cofeologia2/Cofeologia2'
 import Coffe0 from './Components/Coffe0/Coffe0'
 import CoffeForCoffe from './Components/CoffeForCoffe/CoffeForCoffe'
 import Coffemolka from './Components/CoffeMolka/Coffemolka'
-import Grid2 from './Components/GridCoffe/GridCoffe'
+import Footer from './Components/Footer/Footer'
 import GridCoffe from './Components/GridCoffe/GridCoffe'
 import Header from './Components/Header/Header'
 import Nature from './Components/Nature/Nature'
-import Nav from './Components/Nav/Nav'
 import Orange from './Components/Orange/Orange'
-import White from './Components/White/White'
+import FormBanner from './Components/formBanner/formBanner'
+import Servic from './Components/Servic/Servic'
+import Serv from './Components/Service/serv'
+import Home from './home'
 
 function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Nav />
-      <White />
-      <Cards />
-      <Coffemolka />
-      <CoffeForCoffe />
-      {/* <GridCoffe /> */}
-      <Grid2 />
-      <Orange />
-      <Coffe0 />
-      <Nature />
-    </div>
+
+     <Home/>
+     
+    </div >
   )
 }
 

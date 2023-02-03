@@ -7,7 +7,6 @@ import logo from "./img/logo.png"
 import cup from "./img/cup.png"
 import heart from "./img/heart.png"
 
-
 import scss from "./Header.module.scss"
 
 
@@ -15,7 +14,7 @@ function Header() {
   return (
     <>
       <section className={scss.cont}>
-        
+
         <img src={zernLeft} />
 
         <div className='container'>
@@ -49,7 +48,7 @@ function Header() {
             </div>
             <div className={scss.aBlock}>
               <a href="">Главная</a>
-              <a href="">магазин</a>
+              <a href="./Components/Cards/Cards">магазин</a>
               <a href="">сервис и аренда</a>
               <a href="">школа бариста</a>
               <a href="">О нас</a>

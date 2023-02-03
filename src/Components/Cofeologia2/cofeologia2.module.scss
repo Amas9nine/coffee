@@ -1,0 +1,55 @@
+.two {
+  .menuTwo {
+    display: flex;
+
+
+    .img_block_Two {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .block_text_two {
+      width: 50%;
+    }
+  }
+}
+
+// 
+.last {
+
+
+  h2 {
+    color: #EF9C21;
+    font-family: 'Agency FB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+  }
+
+  p {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+//
+.three {
+  background: url(./img/last.png);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box {
+    height: 20%;
+  }
+}

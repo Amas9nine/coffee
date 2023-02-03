@@ -1,0 +1,29 @@
+.right {
+  position: absolute;
+  margin: 0 0 0 59%
+}
+
+.cont {
+  width: 50%;
+  margin: 0 auto;
+
+  div {
+    h1 {
+      color: #EF9C21;
+      text-align: center;
+    }
+  }
+}
+
+.button {
+  div {
+    margin-left: 40%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #1C252E;
+    width: 350px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

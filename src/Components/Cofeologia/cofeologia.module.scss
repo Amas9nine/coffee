@@ -1,0 +1,24 @@
+.one {
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+
+    .block_text {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    .img_block {
+      display: flex;
+      justify-content: right;
+
+      img {
+        width: 80%;
+      }
+    }
+  }
+}
+
+// 

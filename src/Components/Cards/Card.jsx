@@ -12,7 +12,7 @@ function Card() {
         <div className={scss.beetwen}>
 
           <div className={scss.left}>
-            <img src={Iced_Coffee} />
+            <img className={scss.iced} src={Iced_Coffee} />
             <div className={scss.calculate}>
               <div>-</div>
               <div>1</div>
@@ -23,7 +23,7 @@ function Card() {
               <p>Горчинка</p>
               <p>Насыщенность</p>
             </div>
-            <button className={scss.gram}>
+            <button className={scss.gram} >
               <div> 450 г <img src={arrow} /></div>
             </button>
             <br />

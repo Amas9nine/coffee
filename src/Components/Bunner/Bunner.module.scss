@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.block{
+display: block;
+}
+.baner{
+background-image: url('../Cofeologia2/img/last.png');
+/* width: 100%; */
+height: 600px;
+font-family: 'Montserrat';
+}
+
+.buttons{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+
+
+input{
+color: #5B6773;
+text-align: center;
+width: 300px;
+height: 38px;
+background: #FFFFFF;
+border: 2px solid #F4F1F1;
+margin: 10px 0;
+font-family:'Montserrat' ;
+}
+input::-webkit-input-placeholder {
+font-family: 'Montserrat';
+}
+input::placeholder {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+}
+h4{
+color: white;
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.68em;
+text-transform: uppercase;
+
+}
+h1{
+color: white;
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 90px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.text{
+display: flex;
+justify-content: center;
+padding: 100px 0 50px 0 ;
+
+}
+button{
+width: 300px;
+height: 38px;
+background: none;
+border: 1px solid #ffffff;
+color: rgb(255, 255, 255);
+}
+button:hover{
+background-color: #F4F1F1;
+color: black;
+}

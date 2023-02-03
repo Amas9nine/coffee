@@ -1,0 +1,28 @@
+.us {
+
+  background-image: url(./img/6.png);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  margin: 0 auto;
+  width: 110%;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    z-index: 1;
+    font-size: 50px;
+    text-transform: uppercase;
+    border: 2px solid #ECC386;
+    padding: 70px;
+    width: 60%;
+    position: absolute;
+
+    div {
+      color: white;
+      text-align: center;
+    }
+  }
+}
