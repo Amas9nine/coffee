@@ -1,4 +1,4 @@
-import left_img from "./img/Ellipse8.png"
+// import left_img from "./img/Ellipse8.png"
 import right_img from "./img/Ellipse9.png"
 
 import scss from "./asd.module.scss"
@@ -7,8 +7,8 @@ function Ask() {
   return (
     <>
       <br />
-      <div className="container">
-        <img className={scss.right} src={left_img} />
+
+        {/* <img className={scss.right} src={left_img} /> */}
         <div className={scss.cont}>
           <div>
             <h1>Часто задаваемые вопросы.</h1>
@@ -34,7 +34,7 @@ function Ask() {
             Заказать оптом / Обсудить сотрудничество
           </div>
         </div>
-      </div>
+     
     </>
   )
 }

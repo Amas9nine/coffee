@@ -1,11 +1,43 @@
+
+
+//  coffe molka
+.bg {
+  background-image: url(./img/coffelogia.png);
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF9800;
+    font-size: 32px;
+    text-transform: uppercase;
+    height: 15vh;
+  }
+
+  .flex_direction {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      height: 10vh;
+    }
+  }
+
+}
+
+
+//grid coffe 
+
 .grid {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   height: 50vh;
-  border: 1px solid black;
   margin: 0%;
-  
+
 
 
   .main {
@@ -15,6 +47,57 @@
 
     .between {
       width: 50%;
+    }
+  }
+}
+
+// Orange
+
+.bg {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/orange.png);
+}
+
+// gridCoffe
+.cont {
+  width: 90%;
+  margin: 0 auto;
+
+  .five {
+    color: #EF9C21;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 50px;
+  }
+
+  .beetween {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+    div {
+      img {
+        width: 90%;
+      }
+    }
+
+    div {
+      width: 50%;
+    }
+  }
+
+  .box {
+    text-transform: uppercase;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+
+    div {
+      padding: 10px;
+      border: 1px solid black;
     }
   }
 }

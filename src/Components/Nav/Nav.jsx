@@ -11,6 +11,7 @@ function Nav() {
           <div className={scss.box}>
 
             <div className={scss.left_img}>
+
               <div>
                 <p>
                   <hr />
@@ -21,12 +22,15 @@ function Nav() {
                   свежей обжарки
                 </p>
                 <hr />
-                <div>
+                <div className={scss.almat}>
                   с доставкой по Алматы
                   и всему Казахстану
                 </div>
-                <input type="button" value="Подробно" style={{ padding: "10px" }} />
+                <div>
+                  <input className={scss.inp} type="button" value="Подробно" style={{ padding: "10px" }} />
+                </div>
               </div>
+
             </div>
 
             <div className={scss.right_img}>
@@ -36,7 +40,7 @@ function Nav() {
             </div>
 
           </div>
-        
+
         </div>
 
       </section>

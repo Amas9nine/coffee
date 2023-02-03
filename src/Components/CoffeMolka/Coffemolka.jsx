@@ -1,10 +1,11 @@
-import scss from "./coffemolka.module.scss"
+import scss from "./coffemolka.module.scss";
+
 
 
 function Coffemolka() {
   return (
     <>
-      <div className="container">
+      <div >
         <div className={scss.bg}>
           <p>делимся секретом отличного кофе
           </p>
@@ -21,6 +22,15 @@ function Coffemolka() {
           </div>
         </div>
       </div>
+
+      
+        <div className={scss.coffeForCoffe}>
+          <p>
+            Кофе для кофейни, бара или ресторана —
+            обжарка по вашим параметрам
+          </p>
+        </div>
+    
     </>
   )
 }

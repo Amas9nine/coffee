@@ -8,16 +8,15 @@
   .box {
 
     display: flex;
-    border: 1px solid blue;
     justify-content: right;
     z-index: 0;
     height: 80vh;
 
 
+
     .left_img {
       display: flex;
       align-items: center;
-      width: 20%;
       z-index: 0;
 
 
@@ -28,13 +27,35 @@
         }
 
         p {
-          height: 60px;
+          height: 50%;
           font-size: 35px;
         }
 
         .second_P {
           color: #EF9C21;
         }
+
+        .almat {
+
+          height: 10vh;
+
+
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .inp {
+
+
+            width: 30%;
+            margin: 0 auto;
+            background: none;
+          }
+        }
+
       }
     }
 

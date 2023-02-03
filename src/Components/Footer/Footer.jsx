@@ -8,7 +8,6 @@ function Footer() {
   return (
     <>
 
-      <div className="container">
         <footer>
 
           <div className={scss.footernav}>
@@ -49,10 +48,6 @@ function Footer() {
           </div>
 
         </footer>
-
-      </div>
-
-      <br /><br />
     </>
   )
 }

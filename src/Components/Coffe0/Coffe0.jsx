@@ -27,14 +27,12 @@ function Coffe0() {
             </div>
           </div>
         </div>
-        <br /><br />
         <div className={scss.box}>
           <div>
             ПОДРОБНЕЕ О НАС
           </div>
         </div>
       </div>
-      <br /><br /><br />
     </>)
 }
 
