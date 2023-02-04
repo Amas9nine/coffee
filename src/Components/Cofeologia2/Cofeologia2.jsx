@@ -5,6 +5,7 @@ import cup from "./img/coffe.png"
 function Cofeologia2() {
   return (
     <div className="container">
+      <br />
       <div className={scss.two}>
 
         <div className={scss.menuTwo}>
@@ -27,8 +28,10 @@ function Cofeologia2() {
         </div>
       </div>
       {/*  */}
+      <br />
       <div className={scss.last}>
         <h2>COFFELOGIA -  Привезем кофе домой, в офис, кофейню и ресторан.</h2>
+        <br />
         <p>Сделали заказ действительно удобным — чтобы купить кофе в зернах или молотый, достаточно нескольких кликов на сайте.
         </p>
         <br />
@@ -43,6 +46,7 @@ function Cofeologia2() {
         <br />
         <p> Мы гарантируем отличный вкус и незабываемые впечатления от каждой чашки.
         </p>
+        <br />
       </div>
       {/*  */}
       {/* <div className={scss.three}>

@@ -1,4 +1,10 @@
 .one {
+  .head {
+    background-image: url(./img/head.png);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+  }
 
   .menu {
     display: flex;

@@ -1,31 +1,17 @@
-div {
-  p {
-    width: 50%F;
-    ;
-  }
-
-  .h1 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 65px;
+div{
+  h1{
     color: black;
   }
-
-
-  .beetwen {
-    display: flex;
-    justify-content: space-around;
-
-    div {
-      .imgG {
-        // width: 50%;
-
-        img {
-          width: 50%;
-        }
-      }
-    }
+  .beetwen{
+   display: flex !important;
   }
 }
+
+h1{
+}
+
+.wrapperTittle{
+  margin: auto 0;
+  width: 67%;
+}
+
