@@ -18,7 +18,7 @@ import Servic from './Components/Servic/Servic'
 import Serv from './Components/Service/serv'
 import Home from './home'
 import Coffe0 from './Components/Coffe0/Coffe0'
-import HeaderUsFooter from './Components/pages/HeaderUsFooter'
+import HeaderUsFooter from './pages/HeaderUsFooter'
 
 function App() {
   return (
