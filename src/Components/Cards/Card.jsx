@@ -3,10 +3,12 @@ import scss from "./Card.module.scss"
 import icon_heart from "./img/icon_heart.svg"
 import Iced_Coffee from "./img/Iced_Coffee.png"
 import arrow from "./img/Arrow7.svg"
+import Header from "../Header/Header"
 
 function Card() {
   return (
     <>
+    
       <div className={scss.card}>
         <p className={scss.pName}>СВЕЖЕОБЖАРЕННЫЙ КОФЕ</p>
         <div className={scss.beetwen}>

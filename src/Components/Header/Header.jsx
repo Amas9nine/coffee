@@ -8,6 +8,7 @@ import cup from "./img/cup.png"
 import heart from "./img/heart.png"
 
 import scss from "./Header.module.scss"
+import { Link } from "react-router-dom"
 
 
 function Header() {
@@ -25,15 +26,15 @@ function Header() {
             </div>
             <div className={scss.rightUp}>
               <div className={scss.imgUp}>
-                <a href="">
+                <Link to="">
                   <img src={faceBook} />
-                </a>
-                <a href="">
+                </Link>
+                <Link to="">
                   <img src={instagram} />
-                </a>
-                <a href="">
+                </Link>
+                <Link to="">
                   <img src={twitter} />
-                </a>
+                </Link>
               </div>
               <div className={scss.letters}>
                 <div className={scss.ru}>RU</div>
@@ -44,15 +45,17 @@ function Header() {
 
           <div className={scss.downUp}>
             <div className={scss.img}>
-              <img src={logo} />
+              <Link to='/'>
+                <img src={logo} />
+              </Link>
             </div>
             <div className={scss.aBlock}>
-              <a href="">Главная</a>
-              <a href="./Components/Cards/Cards">магазин</a>
-              <a href="">сервис и аренда</a>
-              <a href="">школа бариста</a>
-              <a href="">О нас</a>
-              <a href="">Контакты</a>
+              <Link to="/">Главная</Link>
+              <Link to="/cards">магазин</Link>
+              <Link to="/service">сервис и аренда</Link>
+              <Link to="./coffe0">школа бариста</Link>
+              <Link to="/about">О нас</Link>
+              <Link to="">Контакты</Link>
               <a className={scss.number} href="">+7 926 171 67 66</a>
             </div>
             <div className={scss.hearts}>
